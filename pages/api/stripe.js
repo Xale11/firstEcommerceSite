@@ -1,4 +1,5 @@
 import Stripe from "stripe"
+/*update */
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
